@@ -1,0 +1,1 @@
+Drive klasörü içerisindeki "modeller" klasörünü bu dizinin içerisine indirmelisiniz. ! Dosya boyutu büyük olduğu için drive'a upload etmiş bulunmaktayım. 

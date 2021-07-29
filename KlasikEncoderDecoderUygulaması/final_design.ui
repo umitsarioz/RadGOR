@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>510</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>510</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>AR-CheX</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/radgor_logo.png</normaloff>icons/radgor_logo.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="txt_dosyaAdi">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dosya Adı</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_ekle">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>50</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ekle</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/add_file.png</normaloff>icons/add_file.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>54</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_baslat">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>50</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Baslat</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/start.png</normaloff>icons/start.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>54</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="btn_kaydet">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>50</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kaydet</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/save.png</normaloff>icons/save.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>32</height>
+     </size>
+    </property>
+    <property name="autoRaise">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="txt_bilgiYazisi">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bilgi Yazısı</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>491</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Rapor</string>
+    </property>
+    <widget class="QTextBrowser" name="txt_rapor">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>471</width>
+       <height>181</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>320</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Geçen Zaman: 00:00:00</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>510</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_howtouse">
+    <property name="title">
+     <string>Nasıl Kullanılır?</string>
+    </property>
+   </widget>
+   <addaction name="menu_howtouse"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
